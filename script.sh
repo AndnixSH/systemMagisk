@@ -44,8 +44,7 @@ find_magisk_apk() {
 if [ "$DEBUG" == 1 ]; then
 set -x
 fi
-ABI=$(grep_get_prop ro.product.cpu.abi)
-ABI32=armeabi-v7a
+api_level_arch_detect
 ui_print "- Find Magisk app..."
 find_magisk_apk
 APK=$(echo $APK)

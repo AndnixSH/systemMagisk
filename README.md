@@ -24,3 +24,7 @@ sh /data/media/0/Documents/systemMagisk/script.sh
 ### Important
 
 - NOT RECOMMENDED to flash this on real phone
+
+### Others
+
+- [One-click version](https://github.com/vadlike/baberedition/tree/OpenHub) by OpenHub
